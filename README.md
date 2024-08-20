@@ -1,6 +1,8 @@
 # Repositório de Exercícios
 
-Este repositório contém várias branches, cada uma dedicada a um exercício específico relacionado a Git, HTML, CSS, e JavaScript. A branch principal (`main`) fornece uma visão geral do repositório e serve como ponto de referência para as demais branches.
+Este repositório foi criado para praticar diferentes aspectos de desenvolvimento web e controle de versão, abordando desde o básico de Git até a criação de páginas web interativas com HTML, CSS e JavaScript.
+
+Você encontrará várias branches, cada uma dedicada a um exercício específico relacionado a Git, HTML, CSS, e JavaScript. A branch principal (`main`) fornece uma visão geral do repositório e serve como ponto de referência para as demais branches.
 
 ## Branches Disponíveis
 
@@ -20,6 +22,3 @@ Para acessar os diferentes exercícios, mude para a branch correspondente utiliz
 
 ```bash
 git checkout <nome-da-branch>
-
-
-Este repositório foi criado para praticar diferentes aspectos de desenvolvimento web e controle de versão, abordando desde o básico de Git até a criação de páginas web interativas com HTML, CSS e JavaScript.
