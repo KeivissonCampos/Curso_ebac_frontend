@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+    min-height: 70px;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 0.856)
+}
+
+nav ul{
+    /* background-color: red; */
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li a{
+    /* color: white; */
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+#sport{
+    color: rgb(0, 231, 0);
+}
+#economic{
+    color: rgb(232, 236, 1);
+}
+#tecnology{
+    color: rgb(38, 120, 197);
+}
+#travel{
+    color: rgb(216, 0, 0);
+}
+
+h1{
+    font-size: 24px;
+}
+
+footer{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    text-align: center;
+    padding: 50px 50px;
+}
+
+/* Container Artigos */
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+article{
+    background-color: rgba(255, 255, 255, 0.911);
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(49, 49, 49);
+    box-sizing: border-box;
+    width: calc(33.333% - 60px);
+}
+
+article img {
+    max-width: 100%;
+    height: auto; 
+}
+
+article header,
+article h3,
+article p,
+article a {
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+article a {
+    margin: 10px 0;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+h2{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* ------------- Esportes */
+
+#container-esportes{
+    background-color: rgba(0, 128, 0, 0.562);
+}
+
+#container-esportes article a {
+    background-color: green;
+}
+
+/* ------------- Economia */
+
+#container-economia{
+    background-color: rgba(202, 206, 0, 0.562);
+}
+
+#container-economia article a {
+    background-color: rgb(128, 94, 0);
+}
+
+/* ------------- Tecnologia */
+
+#container-tecnologia{
+    background-color: rgba(0, 55, 206, 0.562);
+}
+
+#container-tecnologia article a {
+    background-color: rgb(19, 0, 128);
+}
+
+/* ------------- Viagens */
+
+#container-viagens{
+    background-color: rgba(206, 0, 0, 0.562);
+}
+
+#container-viagens article a {
+    background-color: rgb(128, 0, 0);
+}
+
+@media screen and (max-width: 730px ) {
+    .container-header{
+        padding: 20px;
+        justify-content: center;
+    }
+
+    article{
+        width: 100%;
+        margin: 10px 0px 10px 0px;
+    }
+}
