@@ -1,24 +1,43 @@
-# Repositório de Exercícios
+# Lista de Tarefas com jQuery
 
-Este repositório foi criado para praticar diferentes aspectos de desenvolvimento web e controle de versão, abordando desde o básico de Git até a criação de páginas web interativas com HTML, CSS e JavaScript.
+Este é um projeto simples de lista de tarefas que permite aos usuários adicionar, riscar e gerenciar suas tarefas de forma interativa. A aplicação foi desenvolvida utilizando HTML, CSS e jQuery.
 
-Você encontrará várias branches, cada uma dedicada a um exercício específico relacionado a Git, HTML, CSS, e JavaScript. A branch principal (`main`) fornece uma visão geral do repositório e serve como ponto de referência para as demais branches.
+## Funcionalidades
 
-## Branches Disponíveis
+- **Adicionar Tarefas**: Os usuários podem adicionar novas tarefas preenchendo um formulário com o nome da tarefa.
+- **Riscar Tarefas Concluídas**: Ao clicar em uma tarefa, ela será riscada (aplicando um efeito de "completed"), indicando que a tarefa foi concluída.
+- **Efeito de Aparecimento**: As tarefas aparecem com um efeito de fade-in ao serem adicionadas à lista.
 
-- **main:** Contém este arquivo README, que explica o conteúdo e a estrutura do repositório.
+## Tecnologias Utilizadas
 
-- **exercicio_git:** Inclui o primeiro exercício de Git, onde foram realizados commits e a criação de uma nova branch.
+- **HTML5**: Para a estrutura da página.
+- **CSS3**: Para a estilização da lista e das tarefas.
+- **jQuery**: Para manipulação dos elementos DOM e controle dos eventos.
 
-- **exercicio_html:** Contém um formulário simples criado utilizando HTML.
+## Estrutura do Projeto
 
-- **exercicio_css:** Apresenta uma página web em formato de blog, estilizada utilizando CSS.
+- `index.html`: Arquivo principal contendo o formulário de adição de tarefas e a lista de tarefas.
+- `styles.css`: (Opcional) Arquivo de estilo para a página, definindo a aparência da lista e dos itens.
+- `script.js`: Arquivo JavaScript que contém a lógica para adicionar tarefas, riscar tarefas concluídas, e aplicar efeitos visuais.
 
-- **exercicio_html_js:** Este exercício aplica JavaScript a uma página HTML para comparar dois números inseridos em um formulário e fornecer feedback ao usuário.
+## Como Usar
 
-## Como Navegar pelo Repositório
+2. **Abrir o Arquivo `index.html`**:
+   - Navegue até a pasta do projeto e abra o arquivo `index.html` em seu navegador.
 
-Para acessar os diferentes exercícios, mude para a branch correspondente utilizando o comando:
+3. **Adicionar uma Tarefa**:
+   - Digite o nome da tarefa no campo de input e clique no botão "Adicionar Tarefa".
+   - A tarefa será adicionada à lista com um efeito de fade-in.
 
-```bash
-git checkout <nome-da-branch>
+4. **Marcar uma Tarefa como Concluída**:
+   - Clique em qualquer tarefa da lista para riscar o texto, indicando que a tarefa foi concluída.
+   - Clique novamente na tarefa para desmarcá-la.
+
+## Exemplo de Uso
+
+Após abrir o `index.html` no navegador, a interface exibirá um campo para digitar o nome da tarefa e um botão para adicionar a tarefa. Abaixo disso, haverá uma lista onde as tarefas aparecerão à medida que são adicionadas.
+
+## Personalização
+
+- **Estilos CSS**: Você pode ajustar as cores, fontes, e outros estilos editando o arquivo `styles.css`.
+- **Efeitos jQuery**: O tempo de fade-in pode ser ajustado na função `fadeIn()` no arquivo `script.js`.
