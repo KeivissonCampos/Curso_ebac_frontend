@@ -16,6 +16,8 @@ Você encontrará várias branches, cada uma dedicada a um exercício específic
 
 - **exercicio_html_js:** Este exercício aplica JavaScript a uma página HTML para comparar dois números inseridos em um formulário e fornecer feedback ao usuário.
 
+- **exercicio_jquery:** Este exercício aplica JavaScript com a biblioteca jQuery para manipulação dos elementos DOM e controle dos eventos.
+
 ## Como Navegar pelo Repositório
 
 Para acessar os diferentes exercícios, mude para a branch correspondente utilizando o comando:
