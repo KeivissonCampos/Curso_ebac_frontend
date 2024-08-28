@@ -1,26 +1,15 @@
-# Repositório de Exercícios
+# Formulário de Cadastro com Bootstrap
 
-Este repositório foi criado para praticar diferentes aspectos de desenvolvimento web e controle de versão, abordando desde o básico de Git até a criação de páginas web interativas com HTML, CSS e JavaScript.
+Este repositório contém um exemplo básico de um formulário de cadastro criado com HTML e estilizado usando Bootstrap. O formulário é projetado para ser responsivo e centralizado na tela, especialmente para dispositivos móveis.
 
-Você encontrará várias branches, cada uma dedicada a um exercício específico relacionado a Git, HTML, CSS, e JavaScript. A branch principal (`main`) fornece uma visão geral do repositório e serve como ponto de referência para as demais branches.
+## Funcionalidades
 
-## Branches Disponíveis
+- **Formulário de Cadastro**: Inclui campos para Nome, E-mail e Telefone.
+- **Design Responsivo**: O formulário é centralizado na tela e ajusta-se a diferentes tamanhos de dispositivos.
+- **Estilização com Bootstrap**: Utiliza a CDN do Bootstrap para estilização.
 
-- **main:** Contém este arquivo README, que explica o conteúdo e a estrutura do repositório.
+## Estrutura do Projeto
 
-- **exercicio_git:** Inclui o primeiro exercício de Git, onde foram realizados commits e a criação de uma nova branch.
+O projeto contém os seguintes arquivos:
 
-- **exercicio_html:** Contém um formulário simples criado utilizando HTML.
-
-- **exercicio_css:** Apresenta uma página web em formato de blog, estilizada utilizando CSS.
-
-- **exercicio_html_js:** Este exercício aplica JavaScript a uma página HTML para comparar dois números inseridos em um formulário e fornecer feedback ao usuário.
-
-- **exercicio_jquery:** Este exercício aplica JavaScript com a biblioteca jQuery para manipulação dos elementos DOM e controle dos eventos.
-
-## Como Navegar pelo Repositório
-
-Para acessar os diferentes exercícios, mude para a branch correspondente utilizando o comando:
-
-```bash
-git checkout <nome-da-branch>
+- `index.html`: O arquivo principal contendo o código HTML do formulário de cadastro.
