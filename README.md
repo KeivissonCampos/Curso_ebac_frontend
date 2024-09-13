@@ -24,6 +24,5 @@ O código original foi escrito em CSS e define o layout básico de uma página d
 
 O código foi refatorado para SCSS para facilitar a manutenção e adicionar novas funcionalidades. As principais melhorias são:
 
-1. **Variáveis**: Definimos cores e tamanhos reutilizáveis.
-2. **Aninhamento**: Facilitamos o entendimento das hierarquias de estilo ao aninhar seletores dentro de seus elementos pais.
-3. **Mixin**: Criamos mixins para aplicar regras de estilo repetitivas, como o comportamento de responsividade.
+1. **Variáveis**: Definido cores.
+2. **Aninhamento**: Facilitado o entendimento das hierarquias de estilo ao aninhar seletores dentro de seus elementos pais.
