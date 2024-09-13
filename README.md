@@ -12,7 +12,7 @@ Você encontrará várias branches, cada uma dedicada a um exercício específic
 - **exercicio_css**: Apresenta uma página web em formato de blog, estilizada utilizando CSS.
 - **exercicio_html_js**: Aplica JavaScript a uma página HTML para comparar dois números inseridos em um formulário e fornecer feedback ao usuário.
 - **exercicio_jquery**: Utiliza a biblioteca jQuery para manipulação dos elementos DOM e controle dos eventos.
-- **exercicio_sass**: Esta branch foca na conversão de um código CSS existente para SCSS, implementando variáveis, aninhamento e mixins para melhorar a organização do código e sua manutenção.
+- **exercicio_sass**: Esta branch foca na conversão de um código CSS existente para SCSS, implementando variáveis, aninhamento para melhorar a organização do código e sua manutenção.
 
 ## Como Navegar pelo Repositório
 
