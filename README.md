@@ -1,26 +1,29 @@
-# Repositório de Exercícios
+# Conversão de CSS para SCSS
 
-Este repositório foi criado para praticar diferentes aspectos de desenvolvimento web e controle de versão, abordando desde o básico de Git até a criação de páginas web interativas com HTML, CSS e JavaScript.
+Este projeto é uma transformação de um código CSS existente para o formato SCSS, que é uma extensão do CSS que permite o uso de variáveis, aninhamento, mixins e outras funcionalidades avançadas para facilitar a manutenção e escalabilidade do código.
 
-Você encontrará várias branches, cada uma dedicada a um exercício específico relacionado a Git, HTML, CSS, e JavaScript. A branch principal (`main`) fornece uma visão geral do repositório e serve como ponto de referência para as demais branches.
+## Estrutura Original
 
-## Branches Disponíveis
+O código original foi escrito em CSS e define o layout básico de uma página de produtos. Aqui estão os principais elementos:
 
-- **main:** Contém este arquivo README, que explica o conteúdo e a estrutura do repositório.
+### Resumo do Código CSS
 
-- **exercicio_git:** Inclui o primeiro exercício de Git, onde foram realizados commits e a criação de uma nova branch.
+- **Reset básico**: Remove margens e preenchimentos padrões dos elementos e define a `box-sizing` para `border-box`.
+- **Estrutura principal**: 
+  - `body` com fundo personalizado.
+  - `container` para centralizar o conteúdo com largura máxima de 1024px.
+  - `header` com um fundo fixo e sticky no topo da página.
+  - Menu de navegação estilizado para ser flexível e espaçado entre os itens.
+  - Produtos exibidos em uma grade de três colunas, ajustando para duas colunas e layout em bloco para telas menores.
+- **Responsividade**: 
+  - Dois breakpoints são utilizados:
+    - Até 1023px, o layout da grade muda para duas colunas.
+    - Até 767px, o layout se adapta para exibir os produtos em bloco.
 
-- **exercicio_html:** Contém um formulário simples criado utilizando HTML.
+## Estrutura SCSS
 
-- **exercicio_css:** Apresenta uma página web em formato de blog, estilizada utilizando CSS.
+O código foi refatorado para SCSS para facilitar a manutenção e adicionar novas funcionalidades. As principais melhorias são:
 
-- **exercicio_html_js:** Este exercício aplica JavaScript a uma página HTML para comparar dois números inseridos em um formulário e fornecer feedback ao usuário.
-
-- **exercicio_jquery:** Este exercício aplica JavaScript com a biblioteca jQuery para manipulação dos elementos DOM e controle dos eventos.
-
-## Como Navegar pelo Repositório
-
-Para acessar os diferentes exercícios, mude para a branch correspondente utilizando o comando:
-
-```bash
-git checkout <nome-da-branch>
+1. **Variáveis**: Definimos cores e tamanhos reutilizáveis.
+2. **Aninhamento**: Facilitamos o entendimento das hierarquias de estilo ao aninhar seletores dentro de seus elementos pais.
+3. **Mixin**: Criamos mixins para aplicar regras de estilo repetitivas, como o comportamento de responsividade.
