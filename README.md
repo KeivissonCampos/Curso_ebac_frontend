@@ -14,8 +14,6 @@ Este projeto utiliza **Gulp** para automatizar a compressão de imagens, compila
 - [gulp-sass](https://www.npmjs.com/package/gulp-sass) - Compilador Sass
 - [gulp-uglify](https://www.npmjs.com/package/gulp-uglify) - Minificador de JavaScript
 - [gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin) - Compressor de imagens
-- [imagemin-pngquant](https://www.npmjs.com/package/imagemin-pngquant) - Otimizador de PNG
-- [imagemin-mozjpeg](https://www.npmjs.com/package/imagemin-mozjpeg) - Otimizador de JPEG
 
 ## Estrutura de Pastas
 .
