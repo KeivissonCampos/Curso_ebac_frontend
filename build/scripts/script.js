@@ -1,0 +1,1 @@
+let images=document.querySelectorAll(".image");images.forEach(e=>{e.addEventListener("click",()=>{e.classList.toggle("clicked")})});
