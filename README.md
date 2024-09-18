@@ -1,28 +1,32 @@
-# Conversão de CSS para SCSS
+# Projeto de Otimização de Imagens com Gulp
 
-Este projeto é uma transformação de um código CSS existente para o formato SCSS, que é uma extensão do CSS que permite o uso de variáveis, aninhamento, mixins e outras funcionalidades avançadas para facilitar a manutenção e escalabilidade do código.
+Este projeto utiliza **Gulp** para automatizar a compressão de imagens, compilação de arquivos **Sass** e minificação de **JavaScript**. O objetivo principal é otimizar o processo de desenvolvimento e reduzir o tamanho dos arquivos estáticos, melhorando o desempenho do site.
 
-## Estrutura Original
+## Funcionalidades
 
-O código original foi escrito em CSS e define o layout básico de uma página de produtos. Aqui estão os principais elementos:
+- **Compilação de Sass:** Transforma arquivos `.scss` em `.css` compactados, facilitando o uso de pré-processadores CSS.
+- **Minificação de JavaScript:** Minifica e obfusca arquivos JavaScript para reduzir o tamanho final.
+- **Compressão de Imagens:** Utiliza `gulp-imagemin@4.0.2` para comprimir arquivos de imagem e reduzir o tempo de carregamento das páginas. 
 
-### Resumo do Código CSS
+## Tecnologias Utilizadas
 
-- **Reset básico**: Remove margens e preenchimentos padrões dos elementos e define a `box-sizing` para `border-box`.
-- **Estrutura principal**: 
-  - `body` com fundo personalizado.
-  - `container` para centralizar o conteúdo com largura máxima de 1024px.
-  - `header` com um fundo fixo e sticky no topo da página.
-  - Menu de navegação estilizado para ser flexível e espaçado entre os itens.
-  - Produtos exibidos em uma grade de três colunas, ajustando para duas colunas e layout em bloco para telas menores.
-- **Responsividade**: 
-  - Dois breakpoints são utilizados:
-    - Até 1023px, o layout da grade muda para duas colunas.
-    - Até 767px, o layout se adapta para exibir os produtos em bloco.
+- [Gulp](https://gulpjs.com/) - Automatizador de tarefas
+- [gulp-sass](https://www.npmjs.com/package/gulp-sass) - Compilador Sass
+- [gulp-uglify](https://www.npmjs.com/package/gulp-uglify) - Minificador de JavaScript
+- [gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin) - Compressor de imagens
+- [imagemin-pngquant](https://www.npmjs.com/package/imagemin-pngquant) - Otimizador de PNG
+- [imagemin-mozjpeg](https://www.npmjs.com/package/imagemin-mozjpeg) - Otimizador de JPEG
 
-## Estrutura SCSS
-
-O código foi refatorado para SCSS para facilitar a manutenção e adicionar novas funcionalidades. As principais melhorias são:
-
-1. **Variáveis**: Definido cores.
-2. **Aninhamento**: Facilitado o entendimento das hierarquias de estilo ao aninhar seletores dentro de seus elementos pais.
+## Estrutura de Pastas
+.
+├── build
+│   ├── images    # Imagens otimizadas
+│   ├── scripts   # Arquivos JavaScript minificados
+│   └── styles    # Arquivos CSS compilados
+├── source
+│   ├── images    # Imagens originais
+│   ├── scripts   # Arquivos JavaScript originais
+│   └── styles    # Arquivos Sass
+├── gulpfile.js   # Configurações do Gulp
+├── package.json  # Dependências do projeto
+└── README.md     # Documentação do projeto
