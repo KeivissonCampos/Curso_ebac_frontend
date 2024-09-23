@@ -1,22 +1,29 @@
-# Repositório de Exercícios
+# Exercício de Metodologia BEM
 
-Este repositório foi criado para praticar diferentes aspectos de desenvolvimento web e controle de versão, abordando desde o básico de Git até a criação de páginas web interativas com HTML, CSS e JavaScript.
+## Descrição do Exercício
 
-Você encontrará várias branches, cada uma dedicada a um exercício específico relacionado a Git, HTML, CSS, JavaScript e SCSS. A branch principal (main) fornece uma visão geral do repositório e serve como ponto de referência para as demais branches.
+Este exercício tem como objetivo aplicar a metodologia BEM (Block, Element, Modifier) na estruturação e estilização de um arquivo HTML e CSS. A atividade envolve a modificação de um arquivo HTML fornecido, adaptando suas classes de acordo com as boas práticas de BEM e transcrevendo os estilos no formato adequado.
 
-## Branches Disponíveis
+## Instruções
 
-- **main**: Contém este arquivo README, que explica o conteúdo e a estrutura do repositório.
-- **exercicio_git**: Inclui o primeiro exercício de Git, onde foram realizados commits e a criação de uma nova branch.
-- **exercicio_html**: Contém um formulário simples criado utilizando HTML.
-- **exercicio_css**: Apresenta uma página web em formato de blog, estilizada utilizando CSS.
-- **exercicio_html_js**: Aplica JavaScript a uma página HTML para comparar dois números inseridos em um formulário e fornecer feedback ao usuário.
-- **exercicio_jquery**: Utiliza a biblioteca jQuery para manipulação dos elementos DOM e controle dos eventos.
-- **exercicio_sass**: Esta branch foca na conversão de um código CSS existente para SCSS, implementando variáveis, aninhamento para melhorar a organização do código e sua manutenção.
+1. **Atualização do HTML**:
+   - Utilize o arquivo HTML fornecido no material de apoio e ajuste as classes seguindo as convenções da metodologia BEM.
+   - Identifique corretamente os **blocos**, **elementos** e, se necessário, aplique **modificadores** para organizar o código de forma clara e escalável.
 
-## Como Navegar pelo Repositório
+2. **Transcrição do CSS**:
+   - Após a adequação das classes no HTML, transcreva o CSS aplicando as convenções de BEM.
+   - A abordagem para o desenvolvimento do CSS é livre, podendo ser utilizado:
+     - **CSS puro**
+     - **SASS** ou **LESS** (pré-processadores)
+   - Se optar pelo uso de um pré-processador, inclua os arquivos correspondentes no repositório.
 
-Para acessar os diferentes exercícios, mude para a branch correspondente utilizando o comando:
+3. **Entrega do Exercício**:
+   - Suba o exercício para a branch `boas_praticas_css` do seu repositório no GitHub.
+   - Certifique-se de incluir todos os arquivos atualizados (HTML, CSS e/ou pré-processados como SASS/LESS).
+   - Caso tenha utilizado SASS ou LESS, lembre-se de compilar e verificar se a saída CSS está funcionando corretamente.
 
-```bash
-git checkout <nome-da-branch>
+## Estrutura do Projeto
+
+- **HTML**: Atualizado com as classes organizadas segundo a metodologia BEM.
+- **CSS**: Estilos adaptados utilizando BEM para os blocos, elementos e modificadores.
+- **Pré-processador (opcional)**: Se utilizado, incluir o arquivo `.scss` ou `.less`.
