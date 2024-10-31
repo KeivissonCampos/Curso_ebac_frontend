@@ -13,7 +13,7 @@ Este projeto permite buscar e exibir informações de perfis do GitHub utilizand
 ### 🛠️ Instalação
 1. **Clone o repositório** para ter acesso ao código:
    ```bash
-   git clone https://github.com/
+   git clone -b exercicio_ajax https://github.com/KeivissonCampos/Curso_ebac_frontend.git
 
 ### Uso
 2. Abra o arquivo scripts.js e modifique a url https://api.github.com/users/"seu nome de usuario"
