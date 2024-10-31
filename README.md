@@ -1,23 +1,19 @@
-# Repositório de Exercícios
+# 🔍 GitHub Ajax
+Este projeto permite buscar e exibir informações de perfis do GitHub utilizando AJAX, oferecendo uma interface simples e fácil de usar para visualizar dados básicos de qualquer usuário do GitHub.
 
-Este repositório foi criado para praticar diferentes aspectos de desenvolvimento web e controle de versão, abordando desde o básico de Git até a criação de páginas web interativas com HTML, CSS e JavaScript.
+## ⚙️ Funcionalidades
+- 🔄 **Busca de Dados em Tempo Real:** Obtém dados de perfil do GitHub usando XMLHttpRequest para atualizações rápidas.
+- 👤 **Informações Exibidas:** Mostra o nome completo, nome de usuário, avatar, quantidade de repositórios, número de seguidores e seguidos do usuário.
+- 🔗 **Acesso Direto ao Perfil:** Inclui um link que leva diretamente ao perfil do usuário no GitHub.
 
-Você encontrará várias branches, cada uma dedicada a um exercício específico relacionado a Git, HTML, CSS, JavaScript e SCSS. A branch principal (main) fornece uma visão geral do repositório e serve como ponto de referência para as demais branches.
+## 🚀 Como Começar
+### Pré-requisitos
+- 🌐 Navegador web atualizado
 
-## Branches Disponíveis
+### 🛠️ Instalação
+1. **Clone o repositório** para ter acesso ao código:
+   ```bash
+   git clone https://github.com/
 
-- **main**: Contém este arquivo README, que explica o conteúdo e a estrutura do repositório.
-- **exercicio_git**: Inclui o primeiro exercício de Git, onde foram realizados commits e a criação de uma nova branch.
-- **exercicio_html**: Contém um formulário simples criado utilizando HTML.
-- **exercicio_css**: Apresenta uma página web em formato de blog, estilizada utilizando CSS.
-- **exercicio_html_js**: Aplica JavaScript a uma página HTML para comparar dois números inseridos em um formulário e fornecer feedback ao usuário.
-- **exercicio_jquery**: Utiliza a biblioteca jQuery para manipulação dos elementos DOM e controle dos eventos.
-- **exercicio_sass**: Esta branch foca na conversão de um código CSS existente para SCSS, implementando variáveis, aninhamento para melhorar a organização do código e sua manutenção.
-- **boas_praticas_css**: Focado na implementação da metodologia BEM em um projeto HTML e CSS, garantindo uma estrutura de código mais clara e eficiente.
-
-## Como Navegar pelo Repositório
-
-Para acessar os diferentes exercícios, mude para a branch correspondente utilizando o comando:
-
-```bash
-git checkout <nome-da-branch>
+### Uso
+2. Abra o arquivo scripts.js e modifique a url https://api.github.com/users/[seu nome de usuario]
