@@ -14,6 +14,7 @@ Você encontrará várias branches, cada uma dedicada a um exercício específic
 - **exercicio_jquery**: Utiliza a biblioteca jQuery para manipulação dos elementos DOM e controle dos eventos.
 - **exercicio_sass**: Esta branch foca na conversão de um código CSS existente para SCSS, implementando variáveis, aninhamento para melhorar a organização do código e sua manutenção.
 - **boas_praticas_css**: Focado na implementação da metodologia BEM em um projeto HTML e CSS, garantindo uma estrutura de código mais clara e eficiente.
+- **exercicio_ajax**: Implementa uma chamada AJAX para buscar e exibir informações de perfis do GitHub.
 
 ## Como Navegar pelo Repositório
 
