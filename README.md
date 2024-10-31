@@ -16,4 +16,4 @@ Este projeto permite buscar e exibir informações de perfis do GitHub utilizand
    git clone https://github.com/
 
 ### Uso
-2. Abra o arquivo scripts.js e modifique a url https://api.github.com/users/[seu nome de usuario]
+2. Abra o arquivo scripts.js e modifique a url https://api.github.com/users/"seu nome de usuario"
