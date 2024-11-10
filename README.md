@@ -15,6 +15,7 @@ Você encontrará várias branches, cada uma dedicada a um exercício específic
 - **exercicio_sass**: Esta branch foca na conversão de um código CSS existente para SCSS, implementando variáveis, aninhamento para melhorar a organização do código e sua manutenção.
 - **boas_praticas_css**: Focado na implementação da metodologia BEM em um projeto HTML e CSS, garantindo uma estrutura de código mais clara e eficiente.
 - **exercicio_ajax**: Implementa uma chamada AJAX para buscar e exibir informações de perfis do GitHub.
+- **exercicio_es6**: Este é um projeto em JavaScript que filtra alunos aprovados com base em uma nota mínima. O código utiliza Babel para compatibilidade com navegadores antigos e Browserslist configurado para cobertura de mais de 0,25% dos usuários.
 
 ## Como Navegar pelo Repositório
 
