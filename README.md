@@ -17,4 +17,4 @@ Este exercício consiste em criar duas funções utilizando TypeScript e suas ti
 
 ## Estrutura do Projeto
 
-- O código será escrito utilizando TypeScript.
+- O código está escrito utilizando TypeScript.
